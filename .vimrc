@@ -41,6 +41,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'fatih/vim-go'
+Plugin 'ethereum/vim-solidity'
+Plugin 'rust-lang/rust.vim'
 
 "vim-go plugin config
 let g:go_highlight_functions=1
