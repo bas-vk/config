@@ -4,9 +4,9 @@
 [Unit]
 Description=Ethereum go client
 
+
 [Service]
-Type=simple
-ExecStart=geth 2>%h/.ethereum/geth.log
+ExecStart=/usr/bin/geth $ARGS
 
 [Install]
 WantedBy=default.target
