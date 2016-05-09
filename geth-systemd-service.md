@@ -6,6 +6,7 @@ Description=Ethereum go client
 
 
 [Service]
+EnvironmentFile=%h/.ethereum/geth.conf
 ExecStart=/usr/bin/geth $ARGS
 
 [Install]
